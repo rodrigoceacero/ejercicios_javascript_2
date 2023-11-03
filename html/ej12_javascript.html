@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img id="logo" src="" alt="">
+    <p id="subtitulo">Logos</p>
+    <script>
+        let logos = [
+            'logo1.jpg',
+            'logo2.jpg',
+            'logo3.png',
+            'logo4.jpg',
+        ];
+        
+        let colores = [
+            'red',
+            'green',
+            'black', 
+            'blue',
+        ];
+
+        let indice = 0;
+        let indiceColor = 0;
+        imgLogo = document.getElementById('logo');
+        subLogo = document.getElementById('subtitulo').style.color = colores[indiceColor];
+
+        function cambiarLogo() {
+            imgLogo.src = logos[indice];
+            indice++;
+            if (indice >= logos.length){
+                indice == 0;
+            }
+            
+        }
+        
+        setInterval(cambiarLogo, 2000);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+body {
+    background-color: aliceblue;
+}
+
+#vocales,
+#consonantes {
+    color: blue;
+    font-size: 1.5em;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+#frase {
+    font-size: 2em;
+    color: rgb(187, 137, 71);
+}

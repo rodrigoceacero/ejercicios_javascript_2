@@ -1,0 +1,15 @@
+ul{
+    border: 1px solid grey;
+    width: 10em;
+    background-color: rgb(232, 229, 229);
+}
+
+.encima{
+    background-color: rgb(150, 232, 232);
+    color: yellow;
+}
+
+.fuera{
+    background-color: rgb(232, 229, 229);
+    color: black;
+}

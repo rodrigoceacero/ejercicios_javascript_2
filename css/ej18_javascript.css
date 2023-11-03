@@ -1,0 +1,28 @@
+table{
+    border: 1px solid black;
+    width: 30em;
+    padding: 1em;
+    background-color: black;
+}
+
+caption{
+    font-size: 2em;
+    font-weight: bold;
+}
+input{
+    font-size: 2.62em;
+}
+
+
+button{
+    width: 8em;
+    height: 8em;
+}
+
+#btnIgual{
+    background-color: rgb(130, 181, 239);
+}
+
+#btnBorrar{
+    background-color: red;
+}
